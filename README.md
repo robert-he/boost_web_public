@@ -1,6 +1,6 @@
 # 📱project-boost-web
 
-This project was built using JavaScript, React, Express.js, Node, React-Router
+This project was built using JavaScript, React, Express.js, Node, React-Router, Redux
 
 ## 🎨 Design
 
