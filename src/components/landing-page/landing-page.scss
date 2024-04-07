@@ -1,0 +1,92 @@
+#landing-page {
+    height: 90vh;
+    width: 100vw;
+    
+    #wave-image {
+        background-size: cover;
+        position: fixed;
+        bottom:0px;
+        height: 50%;
+        width: 100%;
+        padding-top: 40%;
+    }
+
+    #content {
+        position: absolute;
+        z-index: 1;
+        text-align: center;
+
+        #image-text-container {
+            display: flex;
+            justify-content: space-around;
+
+            #text {
+                margin-right: 40px;
+                margin-top: 8vh;
+            }
+        }
+    
+        #login-container { 
+            background-color: white; 
+            padding: 10px;
+            min-width: 250px;
+            max-width: 600px;
+            width: 25vw;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 25px;
+    
+            h3 {
+                font-weight: bold; 
+                font-size: 20px; 
+            }
+
+            img {
+                padding: 20px; 
+                width: 200px;
+                height: auto;
+            } 
+        }
+    
+        h1 {
+            padding: 0;
+            margin: 0; 
+            color: #FEFEFE;
+            font-size: 70px; 
+        }
+    
+        h2 {
+            color: #e5e5e5;
+            padding: 20px;
+            font-size: 26px; 
+        }
+
+        .text {
+            padding-top: 30px;
+        }
+        
+    }
+
+}
+
+@media only screen and (min-width: 700px) {
+    #image-text-container {
+        flex-direction: row;
+    }
+
+    #lady-image {
+        width: auto;
+        height: 70vw;
+        max-height: 85vh;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #image-text-container {
+        flex-direction: column;
+    }
+
+    #lady-image {
+        display: none;
+    }
+}
